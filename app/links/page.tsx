@@ -6,7 +6,7 @@ import { BannerLink } from "@/components/banner-link"
 const WHATSAPP_URL =
   "https://wa.me/5561981926287?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20ensaio."
 const PORTFOLIO_URL = "https://www.estudiorebecamoura.com.br/"
-const MENTORIA_URL = "https://sua-plataforma-de-cursos.com/mentorias"
+const MENTORIA_URL = "https://academy.estudiorm.com.br/mentoria"
 const WORKSHOP_URL = "https://academy.estudiorm.com.br/workshop/newborn-bsb"
 
 export default function Page() {
@@ -27,9 +27,11 @@ export default function Page() {
             alt="Orçamentos de ensaios: gestante, feminino e newborn. Fale pelo WhatsApp."
             label="Solicitar orçamento de ensaio pelo WhatsApp"
           />
+        
         </section>
 
         {/* MEIO — Institucional (link minimalista) */}
+        {/*
         <section aria-labelledby="portfolio-heading" className="w-full">
           <h2 id="portfolio-heading" className="sr-only">
             Portfólio
@@ -44,7 +46,10 @@ export default function Page() {
               aria-hidden="true"
             />
           </a>
-        </section>
+        </section> 
+        
+        */}
+
 
         {/* RODAPÉ — Para fotógrafos (seção solta) */}
         <section
