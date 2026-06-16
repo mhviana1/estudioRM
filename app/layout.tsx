@@ -17,23 +17,23 @@ export const metadata: Metadata = {
   title: 'Estúdio de Fotografia — Ensaios, Mentorias e Workshops',
   description:
     'Ensaios fotográficos de gestante, feminino e newborn, além de mentorias individuais e workshops presenciais para fotógrafos.',
-  generator: 'v0.app',
+  generator: 'Mauricio Viana',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon-rm.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon-rm.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/icon-rm.png',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/icon-rm.png',
   },
 }
 
